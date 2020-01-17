@@ -55,9 +55,9 @@ The Modelling DSL (Domain Specific Language) is a simple high-level language to 
  
 The simulation engine can run the simulation model, train the model and use the trained model to make decisions. The simulation will be developed with C++ 17.
 
-Foot Notes:
+## Notes
  - This project is now at the conceptual phase, code will be developed and commited to this repository overtime.
  - This is a spare time project, do not expect any timely progress.
- - One of the primary purpose of this project is to help the auther to refresh his skills with Python 3 and C++ 17 
-   (the auther is an experienced software engineer, but skills on c++/python is a kind of out of date. For learning new programming skills, I need programming practices. Therefore, this project).
+ - One of the primary purpose of this project is to help the author to refresh his skills with Python 3 and C++ 17 
+   (the auther is an experienced software engineer, but skills on c++/python is a kind of out of date. I need practices for updating programming skills. Therefore, this project).
    
