@@ -11,7 +11,7 @@ Based on the above definition, a decision making problem must meet the following
 
 First, if the problem has only a single unique solution, there is no other choice. There will not be any need to make decisions. This problem is not a decision making problem.
 
-Second, if the soltuions are not measurable and comparable, we have no way to tell which solution is better or worse than another solution. Then, the computer cannot help much on such problems. Therefore such problems are out of the scope of this project. 
+Second, if the soltuions are not measurable and comparable, we have no way to tell whether a solution is better or worse than another solution. Then, the computer cannot help much on such problems. Therefore such problems are out of the scope of this project. 
 
 If a decision making problem meets the above two requirements, we can try to use computer to help make the best decisions. 
 
@@ -44,8 +44,20 @@ Forthly, The purpose of training the model is to **learn** some pattern based on
 
 Finally, the answer to the question: "Is the best solution always achivable?" is both yes and no. If there is no time limitation, the answer is yes. If there is a time limitation, the answer is no. In practical applications, there is always a time limitation, such as minutes or even seconds, therefore, generally speaking, the answer is no. This is why we try to find **high quality** solutions, instead of trying to find the best (or optimal solutions).
 
+Hopefully, the objectives of this project is clearly stated above. Now, how can we create a computer software to to help?
 
+Basically, this tool will includes two parts:
 
+  1. **Modelling DSL**
+  2. **Simulation Engine** 
+  
+The Modelling DSL (Domain Specific Language) is a simple high-level language to help specify the simulation model in a straight forward manner. The modelling DSL will be based on Python 3.
+ 
+The simulation engine can run the simulation model, train the model and use the trained model to make decisions. The simulation will be developed with C++ 17.
 
-
-
+Foot Notes:
+ - This project is now at the conceptual phase, code will be developed and commited to this repository overtime.
+ - This is a spare time project, do not expect any timely progress.
+ - One of the primary purpose of this project is to help the auther to refresh his skills with Python 3 and C++ 17 
+   (the auther is an experienced software engineer, but skills on c++/python is a kind of out of date. For learning new programming skills, I need programming practices. Therefore, this project).
+   
