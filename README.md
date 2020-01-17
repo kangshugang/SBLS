@@ -29,12 +29,20 @@ With a **correct** and **smart** model in place, we can then utilize it for maki
 
 Here we have a few **questions**:
   1. Why simulation?
-  2. Where is search?
-  3. Why we need search? 
+  2. Why search? 
+  3. What do you mean quickly?
   4. Why train the model?
-  5. What do you mean quickly?
-  6. Is the best solution always achivable?
+  5. Is the best solution always achivable?
   
+First, simulation is a natural way to model a problem. Basically, tell the computer how to create solutions with the given input. We call this a simulation model.
+
+Secondly, as described before, there will be mutliple alternative solutions. The process of finding the best solution from the many alternatives is called **search**. 
+
+Thirdly, the number of alternative solutions often is very large, such as in millions or billions, or even more. This is known as **combinatorial explosion** problem, and sometimes called NP-hard problems (don't worry about NP-hard, we are not going to go deep in that). For this kind of problems, the difficulty is not knowing how to find the best solution (if it exists), the difficulty is how to find it **quickly**. Of course, if we have enough time, we can enumerate all the alternatives and compare them and then we find the best solution. It is trival. But this is often not practical, as it may take the computer hundreds of years of computation sometimes.  
+
+Forthly, The purpose of training the model is to **learn** some pattern based on the problem itself by same sample input and output (**training** with simulation practice). With the patterns learned, when we need to make a decision with a given input, the patterns can be used to guide the search to **quickly** reach **high quality** solutions.
+
+Finally, the answer to the question: "Is the best solution always achivable?" is both yes and no. If there is no time limitation, the answer is yes. If there is a time limitation, the answer is no. In practical applications, there is always a time limitation, such as minutes or even seconds, therefore, generally speaking, the answer is no. This is why we try to find **high quality** solutions, instead of trying to find the best (or optimal solutions).
 
 
 
