@@ -42,7 +42,7 @@ Thirdly, the number of alternative solutions often is very large, such as in mil
 
 Forthly, The purpose of training the model is to **learn** some pattern based on the problem itself by same sample input and output (**training** with simulation practice). With the patterns learned, when we need to make a decision with a given input, the patterns can be used to guide the search to **quickly** reach **high quality** solutions.
 
-Finally, the answer to the question: *"Is the best solution always achivable?"* is both yes and no. If there is no time limitation, the answer is yes. If there is a time limitation, the answer is no. In practical applications, there is always a time limitation, such as minutes or even seconds, therefore, generally speaking, the answer is no. This is why we try to find **high quality** solutions, instead of trying to find the best (or optimal solutions).
+Finally, the answer to the question: *"Is the best solution always achivable?"* is both yes and no. If there is no time limitation, the answer is yes. If there is a time limitation, the answer is no. In practical applications, there is always a time limitation, such as minutes or even seconds, therefore, generally speaking, the answer is no. This is why we try to find **high quality** solutions, instead of trying to find the best (or optimal) solutions.
 
 Hopefully, the objectives of this project is clearly stated above. Now, how can we create a computer software to to help?
 
@@ -53,7 +53,7 @@ Basically, this tool will includes two parts:
   
 The Modelling DSL (Domain Specific Language) is a simple high-level language to help specify the simulation model in a straight forward manner. The modelling DSL will be based on Python 3.
  
-The simulation engine can run the simulation model, train the model and use the trained model to make decisions. The simulation will be developed with C++ 17.
+The simulation engine can run the simulation model, train the model and use the trained model to make decisions. The simulation engine will be developed with C++ 17.
 
 ## Notes
  - This project is now at the conceptual phase, code will be developed and commited to this repository overtime.
