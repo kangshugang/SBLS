@@ -59,5 +59,5 @@ The simulation engine can run the simulation model, train the model and use the 
  - This project is now at the conceptual phase, code will be developed and commited to this repository overtime.
  - This is a spare time project, do not expect any timely progress.
  - One of the primary purpose of this project is to help the author to refresh his skills with Python 3 and C++ 17 
-   (the auther is an experienced software engineer, but skills on c++/python is a kind of out of date. I need practices for updating programming skills. Therefore, this project).
+   (the authers skills on c++/python is not quite up-to-date. I need coding practice while learning. Therefore, this project).
    
