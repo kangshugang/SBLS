@@ -9,7 +9,7 @@ Based on the above definition, a decision making problem must meet the following
   - **multiple alternative solutions**
   - **the solutions are measurable and comparable**
 
-First, if the problem has only a single unique solution, there is no other choice. There will not be any need to make decisions. This problem is not a decision making problem.
+First, if the problem has only a single unique solution, there is no other choice. There will be no need to make decisions. This problem is not a decision making problem.
 
 Second, if the soltuions are not measurable and comparable, we have no way to tell whether a solution is better or worse than another solution. Then, the computer cannot help much on such problems. Therefore such problems are out of the scope of this project. 
 
