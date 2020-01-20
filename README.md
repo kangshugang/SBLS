@@ -1,6 +1,6 @@
 # Simulation-Based Learning and Searching for Decision Making
 
-This project intends to provide a simulation-based learning and searching tool set to solve decision making problems.
+This project provides a generic **Python framework** for simulation-based learning and searching, aiming at solving decision making problems.
 
 Here a **decision making problem** is defined as a problem that must have different **alternative solutions**, we need to **make a decision** to find the **best solution** based on some **performance measures**.
 
