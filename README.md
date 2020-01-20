@@ -2,7 +2,7 @@
 
 This project provides a generic **Python framework** for simulation-based learning and searching, aiming at solving decision making problems.
 
-Here a **decision making problem** is defined as a problem that must have different **alternative solutions**, we need to **make a decision** to find the **best solution** based on some **performance measures**.
+Here a **decision making problem** is defined as a problem that must have different **alternative solutions**, we need to **make a decisions** to find the **best solutions** based on some **performance measures**.
 
 Based on the above definition, a decision making problem must meet the following requirements:
 
