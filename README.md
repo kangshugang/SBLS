@@ -44,20 +44,9 @@ Forthly, The purpose of training the model is to **learn** some patterns based o
 
 Finally, the answer to the question: *"Is the best solution always achivable?"* is both yes and no. If there is no time limitation, the answer is yes. If there is a time limitation, the answer is no. In practical applications, there is always a time limitation, such as minutes or even seconds, therefore, generally speaking, the answer is no. This is why we try to find **high quality** solutions, instead of trying to find the best (or optimal) solutions.
 
-Hopefully, the objectives of this project is clearly stated above. Now, how can we create a computer software to to help?
-
-Basically, this tool will includes two parts:
-
-  1. **Modelling DSL**
-  2. **Simulation Engine** 
-  
-The Modelling DSL (Domain Specific Language) is a simple high-level language to help specify the simulation model in a straight forward manner. The modelling DSL will be based on Python 3.
- 
-The simulation engine can run the simulation model, train the model and use the trained model to make decisions. The simulation engine will be developed with C++ 17.
+Hopefully, the objectives of this project is clearly stated above. The project is programmed in Python. It provides a generic framework for modeling complex decision making problems, traing the model with simulation practices, and utilize the trained models for decision makings. 
 
 ## Notes
  - This project is now at the conceptual phase, code will be developed and commited to this repository overtime.
  - This is a spare time project, do not expect any timely progress.
- - One of the primary purpose of this project is to help the author to refresh his skills with Python 3 and C++ 17 
-   (the authers skills on c++/python is not quite up-to-date. I need coding practice while learning. Therefore, this project).
    
