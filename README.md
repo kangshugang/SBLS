@@ -21,11 +21,11 @@ In order to solve the problem, we need to do the following:
   - **test & training the model**
   - **use the trained model to make decisions**
   
-Model the problem means creating a **simulation model** to mimick the problem itself. With the simualtion model, we can simulate the problem solving process and generate the solutions based on the given input. As defined before, with a given input, there will be multiple possible solutions, the simulation model will be able to simulation different senarios and generate (ideally all) the alterative solutions. 
+Model the problem means creating a **simulation model** to mimick the problem itself. With the simualtion model, we can simulate the problem solving process and generate the solutions based on the given input. As defined before, with a given input, there will be multiple possible solutions, the simulation model will be able to simulate different senarios and generate (ideally all) the alterative solutions. 
 
 After a model is created, we need to **verify** whether the model is **correct**. And we need to **train** the model to make it **"smart"**.
 
-With a **correct** and **smart** model in place, we can then utilize it for making decisions. Basically, given a input, the system can produce **high quality** (if not the best) solutions **quickly** (i.e., in a timely manner).
+With a **correct** and **smart** model, we can then utilize it for making better decisions. Basically, given a input, the system can produce **high quality** (if not the best) solutions **quickly** (i.e., in a timely manner).
 
 Here we have a few **questions**:
   1. Why simulation?
