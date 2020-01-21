@@ -1,4 +1,20 @@
 
+'''
+    log_database (SQLite3)
+        [solutions]
+            id
+            parent_d
+            count
+            performance
+
+        [decisions]
+            agent_request
+            global_features
+            local_features
+            decsion_info
+            solution_id
+'''
+
 class Runner :
 
     def __init__(self, model):
