@@ -42,7 +42,7 @@ Thirdly, the number of alternative solutions is often very large, such as in mil
 
 Forthly, The purpose of training the model is to **learn** some patterns based on the problem itself (**training** with simulation practice through some sample inputs). With the patterns learned, when we need to make a decision for a given input, the patterns can be used to guide the search to **quickly** reach **high quality** solutions.
 
-Finally, the answer to the question: *"Is the best solution always achivable?"* is both yes and no. If there is no time limitation, the answer is yes. If there is a time limitation, the answer is no. In practical applications, there is always a time limitation, such as minutes or even seconds, therefore, generally speaking, the answer is no. This is why we try to find **high quality** solutions, instead of trying to find the best (or optimal) solutions.
+Finally, the answer to the question: *"Is the best solution always achivable?"* is both yes and no. If there is no time limit, the answer is yes. If there is a time limit, the answer is no. In practical applications, there is always a time limit, such as minutes or even seconds, therefore, practically speaking, the answer is no. This is why we try to find **high quality** solutions, instead of saying to find the best (or optimal) solutions.
 
 The project is programmed in **Python**. It provides a **generic framework** for *modeling complex decision making problems*, *traing the model with simulation practices*, and *utilize the trained models for decision makings*. It combine the strength of *learning* and *search* together in tackling the challenges.
 
