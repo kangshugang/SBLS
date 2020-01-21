@@ -46,6 +46,10 @@ Finally, the answer to the question: *"Is the best solution always achivable?"* 
 
 The project is programmed in **Python**. It provides a **generic framework** for *modeling complex decision making problems*, *traing the model with simulation practices*, and *utilize the trained models for decision makings*. It combine the strength of *learning* and *search* together in tackling the challenges.
 
+Here is a brief overview of how the framework works:
+
+![Working Mechainsm](images/working_mechanism.png)
+
 **Scheduling** is a decision making problem that is challenging in both research and industrial practices. It is be used as an example application to demonstrate the feasiblity and effectiveness of this framework.
 
 ## Notes
