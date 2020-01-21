@@ -21,6 +21,7 @@ class Runner :
         self.model = model
 
     def run(model):
+        pass
 
         # loop
             # while stack is not empty

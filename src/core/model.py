@@ -1,5 +1,4 @@
 
-
 class RuninngFacilities :
     def __init__(self):
         self.clock = 0
@@ -9,7 +8,8 @@ class RuninngFacilities :
 
 class Model :
 
-    def __init__(self):
+    def __init__(self, beam_width):
+        self.beam_width = beam_width
         self.global_data = {}
         self.agents = {}
         self.running_facilities = RuninngFacilities()
